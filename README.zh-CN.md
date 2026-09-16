@@ -136,6 +136,23 @@ npx skills add shareai-lab/lab-skills \
 
 两个 Skill 适合组合使用，但也可以各自独立使用。
 
+#### [neural-mechanism-research](./research-analysis/neural-mechanism-research/)
+
+结合具体计算、几何、梯度与历史证据，解释神经网络架构和训练方法为什么有效。
+
+**推荐场景**
+
+- 追踪输入、内部表示和梯度如何在神经网络中变化。
+- 在明确的参数量、计算量或延迟预算下比较架构选择。
+- 结合原始实验、反例与因果证据，检验相互竞争的机制解释。
+
+**使用示例**
+
+```text
+/neural-mechanism-research 从前向计算、梯度和历史实验解释
+多头注意力为什么有效，并讲清证据支持到哪里。
+```
+
 ### 软件工程
 
 #### [vibe-coding](./software-engineering/vibe-coding/)

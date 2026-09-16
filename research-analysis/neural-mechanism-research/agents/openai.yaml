@@ -1,0 +1,4 @@
+interface:
+  display_name: "Neural Mechanism Research"
+  short_description: "Explain neural computation through mechanisms and evidence"
+  default_prompt: "Use $neural-mechanism-research to explain this neural-network mechanism through forward computation, geometry, gradients, historical evidence, and clear examples."

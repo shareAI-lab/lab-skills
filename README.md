@@ -137,6 +137,23 @@ the problem space, show what is known or open, then give the insight and next st
 
 The two Skills work well together, but each remains independently usable.
 
+#### [neural-mechanism-research](./research-analysis/neural-mechanism-research/)
+
+Explain why neural architectures and training methods work through concrete computation, geometry, gradients, and historical evidence.
+
+**Recommended scenarios**
+
+- Trace how inputs, representations, and gradients change across a neural network.
+- Compare architectural choices under explicit parameter, compute, or latency budgets.
+- Test competing explanations against original experiments, counterexamples, and causal evidence.
+
+**Example**
+
+```text
+/neural-mechanism-research explain why multi-head attention works,
+using forward computation, gradients, historical experiments, and clear limits.
+```
+
 ### Software engineering
 
 #### [vibe-coding](./software-engineering/vibe-coding/)
