@@ -292,7 +292,7 @@ Contributions may add, improve, move, consolidate, or retire Skills.
 
 ### External Agent CLI operation and expert teams
 
-- [operate-external-agent-clis](./agent-development/operate-external-agent-clis/): invoke already-installed agents on authorized devices; preserve provider-specific execution, permission, session and lifecycle semantics.
+- [operate-external-agent-clis](./team-collaboration/operate-external-agent-clis/): invoke already-installed agents on authorized devices; preserve provider-specific execution, permission, session and lifecycle semantics.
 - [coordinate-expert-teams](./team-collaboration/coordinate-expert-teams/): prepare self-contained context, independent proposals, cross-review and evidence-based synthesis.
 
 Install either Skill by its name using the installation commands above. These are portable working instructions, not a remote daemon or ready-made MCP server. Supply your own authorized connection and CLI accounts. No private machine inventory or credentials are included. The coordination package contains design notes only; its original offline mock scripts are not bundled, and no new provider inference tests were run for this publication.
