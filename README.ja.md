@@ -289,6 +289,14 @@ Skill の追加、改善、移動、統合、廃止を歓迎します。
 5. 個別 Skill の構造と、リポジトリ全体のデフォルト検出を検証する。
 6. Pull Request で、実践上の根拠、適用範囲、非目標を説明する。
 
+### 外部 Agent CLI の操作と専門家チーム
+
+- [operate-external-agent-clis](./agent-development/operate-external-agent-clis/)：許可済みの接続を使って既存の Agent CLI を操作し、実行・権限・セッション・ライフサイクルの違いを扱います。
+- [coordinate-expert-teams](./team-collaboration/coordinate-expert-teams/)：十分な背景情報、独立提案、相互レビュー、根拠に基づく統合を支援します。
+
+上記のインストール手順で Skill 名を指定してください。これは移植可能な作業手順であり、リモート daemon や MCP サーバーではありません。利用者自身の許可済み接続と CLI アカウントが必要です。秘密の端末一覧や認証情報は含みません。協調 Skill は設計文書のみで、元のオフライン mock スクリプトは含まれず、今回の公開で新たな推論テストは行っていません。
+
+
 ## ライセンス
 
 Apache-2.0

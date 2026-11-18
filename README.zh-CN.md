@@ -288,6 +288,14 @@ Skill 是持续维护的工作资产，而不是冻结的快照：
 5. 同时验证单个 Skill 结构和仓库默认发现行为。
 6. 在 Pull Request 中解释实践证据、适用范围和非目标。
 
+### 外部 Agent CLI 调用与专家协作
+
+- [operate-external-agent-clis](./agent-development/operate-external-agent-clis/)：通过已授权连接调用已有 Agent CLI，处理不同供应商的执行、权限、会话与生命周期差异。
+- [coordinate-expert-teams](./team-collaboration/coordinate-expert-teams/)：准备完整上下文、组织独立提案与交叉审阅，并基于证据整合结果。
+
+按上方安装方式指定 Skill 名称即可。这是通用工作法，不是开箱即用的远程 daemon 或 MCP 服务；需要使用者自己的授权连接及 CLI 账号。不包含私有机器清单或凭据。协调 Skill 的原版离线 mock 脚本未纳入，仅保留设计说明；本次发布未重新进行供应商推理测试。
+
+
 ## 许可证
 
 Apache-2.0
